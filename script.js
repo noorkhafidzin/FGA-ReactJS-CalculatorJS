@@ -108,3 +108,5 @@ inputPercentage = () => {
   }
   currentNumber = currentNumber / 100;
 };
+
+document.getElementById("year").innerHTML = new Date().getFullYear();
